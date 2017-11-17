@@ -1,0 +1,20 @@
+run:
+Rational class
+Implemented by KexinKang
+Test C-tor
+Expected outcome: 4/25, -4/25, -4/25, 4/25, 17/1, 0/1.
+
+rat01 = 4 / 25
+rat02 = -4 / 25
+rat03 = -4 / 25
+rat04 = 4 / 25
+rat05 = 17 / 1
+rat06 = 0 / 1
+
+
+Try bad input
+ Expected Zero Denominator Exception. rational.ZeroDenomException
+
+Test toDouble. Expect 0.16
+rat04 to double: 0.16
+BUILD SUCCESSFUL (total time: 0 seconds)
